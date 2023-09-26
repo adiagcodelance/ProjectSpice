@@ -5,18 +5,22 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="container-fluid">
-      <ul>
+      <img
+        className="brand-logo"
+        src={process.env.PUBLIC_URL + "/SpiceLogo.png"}
+      ></img>
+      <ul className="nav-menu">
         <li className="nav-item">
-          <label>Home</label>
+          <a>Home</a>
         </li>
         <li className="nav-item">
-          <label>About Us</label>
+          <a>About Us</a>
         </li>
         <li className="nav-item">
-          <label>Locations</label>
+          <a>Locations</a>
         </li>
         <li className="nav-item">
-          <label>Wholesale</label>
+          <a>Wholesale</a>
         </li>
       </ul>
     </div>

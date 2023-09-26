@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  position: relative;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 
 .App-logo {
@@ -28,10 +33,51 @@
   color: #61dafb;
 }
 
+span.boundary {
+  position: fixed;
+  background-color: black;
+  /* Adjust the color as needed */
+}
+
+span.top {
+  top: 0;
+  left: 0;
+  /* Add left property to ensure it starts from the left edge */
+  right: 0;
+  width: 100%;
+  /* Add right property to ensure it ends at the right edge */
+  height: 30px;
+  /* Adjust the height as needed */
+}
+
+span.left {
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 100%;
+}
+
+span.right {
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 100%;
+}
+
+span.bottom {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

@@ -1,0 +1,38 @@
+.large-header {
+    text-align: start;
+    width: 800px;
+    word-wrap: normal;
+    background-color: white;
+}
+
+.large-header label {
+    font-size: 60px;
+    width: fit-content;
+}
+
+.medium-header {
+    text-align: start;
+    width: 800px;
+    word-wrap: normal;
+}
+
+.medium-header label {
+    font-size: 25px;
+    width: fit-content;
+    justify-content: center;
+}
+
+.hero-component {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.vertical-spacer {
+    height: 100%;
+    width: 100px;
+}
+
+hr {
+    width: 1600px;
+}

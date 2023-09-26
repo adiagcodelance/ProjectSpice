@@ -6,8 +6,12 @@ import Home from "./Pages/Home";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <span className="boundary top"></span>
+      <span className="boundary left"></span>
+
       <Home />
+      <span className="boundary right"></span>
+      <span className="boundary bottom"></span>
     </div>
   );
 }
