@@ -1,0 +1,44 @@
+.social-image {
+    width: 35px;
+    height: 35px;
+}
+
+.social-image:hover {
+    opacity: 0.9;
+}
+
+.spacer {
+    width: 100%;
+    height: 100px;
+}
+
+#footer-large-header label {
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+#footer-medium-header label {
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.quick-links ul {
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+}
+
+.quick-links li {
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100%;
+}
+
+.quick-links a:hover {
+    color: grey;
+    cursor: pointer;
+}

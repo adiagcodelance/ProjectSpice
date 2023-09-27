@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer";
 import HeroComponent from "../Components/HeroComponents";
 import Navbar from "../Components/Navbar";
 import ReverseHeroComp from "../Components/ReverHeroComp";
@@ -23,7 +24,7 @@ const Home = () => {
           <div className="spacer"></div>
           <ReverseHeroComp
             largeHeader="What Makes Us Different"
-            mediumHeader="Brands both loved and found at home from trusted suppliers, we believe in providing our customers with SPICE experience which stands for great Service at the best Prices in an Inviting and Clean Environment.
+            mediumHeader="Brands both loved and found at home from trusted suppliers, we believe in providing our customers with the SPICE experience which stands for great Service at the best Prices in an Inviting and Clean Environment.
         Find us in your neighborhood soon with out fast growing number of stores, we hope to bring you food and comfort in every neighborhood and province in Canada."
             image="/placeholder.jpg"
           />
@@ -31,6 +32,7 @@ const Home = () => {
           <div className="medium-header"></div>
         </div>
       </body>
+      <Footer />
     </html>
   );
 };
