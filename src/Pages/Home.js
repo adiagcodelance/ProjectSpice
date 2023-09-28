@@ -8,7 +8,7 @@ const Home = () => {
     <html>
       <title>Home - Project Spice</title>
       <head></head>
-      <Navbar />
+
       <div className="spacer"></div>
       <body>
         <div className="Home">
