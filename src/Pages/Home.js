@@ -18,7 +18,7 @@ const Home = () => {
             image="/placeholder.jpg"
           />
           <div className="spacer"></div>
-          <button>Find A Location Near you</button>
+          <button>Find A Location Near You</button>
           <div className="spacer"></div>
           <hr />
           <div className="spacer"></div>

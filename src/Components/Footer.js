@@ -8,13 +8,13 @@ const Footer = () => {
       <div className="spacer"></div>
       <div className="footer-content">
         <div id="footer-large-header">
-          <label>Call Us Now At</label>
+          <label>Call Us At</label>
         </div>
         <div id="footer-medium-header">
           <label>1 902 XXX XXXX</label>
         </div>
         <div id="footer-medium-header">
-          <label>Or Visit Us Now, Find A Location Near You Now!</label>
+          <label>Or Visit Us, Find A Location Near You Now!</label>
         </div>
       </div>
 

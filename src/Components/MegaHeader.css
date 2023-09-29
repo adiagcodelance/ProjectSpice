@@ -3,26 +3,33 @@
     /* Position the overlay absolutely */
     align-items: center;
     justify-content: center;
+    text-align: center;
     width: fit-content;
-    left: 50%;
+    top: 15%;
+    left: 30%;
     /* Move the left edge of the element to the horizontal center of its containing element */
     transform: translateX(-50%);
-
     /* Make the overlay height 100% of the container */
-    background-color: rgba(255, 145, 0, 1);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px;
     /* Add a semi-transparent background color */
-    color: #fff;
+    ;
     /* Text color for the content inside the overlay */
     text-align: center;
     /* Center the content horizontally and vertically */
     padding: 20px;
     /* Add padding for better readability */
+
 }
 
 .mega-header {
     font-size: 80px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
 }
 
-.sub-header {
-    font-size: 30px;
+.banner-image-item {
+    width: 80%;
+    height: 800px;
 }

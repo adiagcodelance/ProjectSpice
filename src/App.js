@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
+import Wholesale from "./Pages/Wholesale";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about-us" element={<AboutUs />}></Route>
+          <Route path="/wholesale" element={<Wholesale />}></Route>
         </Routes>
 
         <span className="boundary right"></span>
