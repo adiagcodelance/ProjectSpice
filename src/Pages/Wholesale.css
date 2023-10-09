@@ -1,0 +1,17 @@
+.brands {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+}
+
+.brands-02 {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+}
+
+.ad-brands {
+    display: flex;
+}

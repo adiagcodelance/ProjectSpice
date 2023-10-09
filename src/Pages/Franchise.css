@@ -1,0 +1,17 @@
+.franchise-hero {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-header-container-01 {
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-header-01 {
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+}

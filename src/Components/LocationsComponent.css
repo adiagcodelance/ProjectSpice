@@ -1,0 +1,36 @@
+.location-comp {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.location-image {
+    width: 500px;
+}
+
+.location-item {
+    width: 300px;
+}
+
+.location-information {
+    width: 200px;
+    text-align: start;
+}
+
+.location-information ul {
+    list-style: none;
+    width: 300px;
+}
+
+#location-title {
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.location-information li {
+    text-align: start;
+    width: 100%;
+    height: fit-content;
+    word-wrap: break-word;
+}

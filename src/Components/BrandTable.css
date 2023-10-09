@@ -1,0 +1,23 @@
+table,
+td {
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 10px;
+}
+
+
+.brand-table {
+    align-items: center;
+    justify-content: center;
+}
+
+th label {
+    font-weight: normal;
+    text-align: center;
+    font-size: 30px;
+}
+
+.brand-image-item {
+    width: 150px;
+}
