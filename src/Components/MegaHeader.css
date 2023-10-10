@@ -10,11 +10,9 @@
     /* Move the left edge of the element to the horizontal center of its containing element */
     transform: translateX(-50%);
     /* Make the overlay height 100% of the container */
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.1);
     box-shadow: 5px 5px 10px;
     /* Add a semi-transparent background color */
-    ;
-    /* Text color for the content inside the overlay */
     text-align: center;
     /* Center the content horizontally and vertically */
     padding: 20px;

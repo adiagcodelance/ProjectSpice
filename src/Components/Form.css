@@ -1,0 +1,40 @@
+.form-container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.contact-form {
+    width: 500px;
+    padding-bottom: 40px;
+}
+
+#contact-form-01 {
+    width: 300px;
+    display: grid;
+}
+
+#contact-form-01 label {
+    text-align: start;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+#contact-form-01 input {
+    font-size: 20px;
+}
+
+
+.contact-form-image {
+    width: 400px;
+}
+
+.contact-form-image-item {
+    width: 400px;
+}
+
+.submit-form-button {
+    padding-top: 10px;
+}

@@ -7,6 +7,7 @@ import Wholesale from "./Pages/Wholesale";
 import Footer from "./Components/Footer";
 import Locations from "./Pages/Locations";
 import Franchise from "./Pages/Franchise";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
@@ -17,13 +18,13 @@ function App() {
         <header>
           <Navbar />
         </header>
-
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about-us" element={<AboutUs />}></Route>
           <Route path="/wholesale" element={<Wholesale />}></Route>
           <Route path="/locations" element={<Locations />}></Route>
           <Route path="/franchise" element={<Franchise />}></Route>
+          <Route path="/Contact-us" element={<Contact />}></Route>
         </Routes>
 
         <span className="boundary right"></span>

@@ -5,13 +5,13 @@
 }
 
 .ad-header-container-01 {
-    width: 600px;
-    align-items: center;
-    justify-content: center;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
 }
 
-.ad-header-01 {
-    font-size: 60px;
-    width: 100%;
+.ad-body-div-01 {
+    width: fit-content;
     text-align: center;
+    margin: auto;
 }

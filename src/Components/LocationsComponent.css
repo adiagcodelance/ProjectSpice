@@ -14,7 +14,7 @@
 }
 
 .location-information {
-    width: 200px;
+    width: fit-content;
     text-align: start;
 }
 
