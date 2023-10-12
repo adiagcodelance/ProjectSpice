@@ -3,3 +3,27 @@
     height: 100px;
 }
 
+#ad-home,
+#ad-home-content {
+    width: 100%;
+}
+
+@media screen and (max-width: 1698px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    .spacer {
+        width: 90%;
+    }
+
+    #ad-home,
+    #ad-home-content {
+        width: 90%;
+    }
+}

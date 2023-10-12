@@ -36,3 +36,60 @@
 hr {
     width: 1600px;
 }
+
+@media screen and (max-width: 1698px) {
+
+    .hero-component {
+        width: 90%;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .text-content {
+        width: fit-content;
+        margin: auto;
+    }
+
+    .large-header {
+        text-align: center;
+        width: 100%;
+
+        word-wrap: normal;
+        background-color: white;
+    }
+
+    .large-header label {
+        font-size: 50px;
+        width: fit-content;
+    }
+
+    .medium-header {
+        text-align: center;
+        width: 100%;
+        word-wrap: normal;
+
+    }
+
+    .medium-header label {
+        font-size: 20px;
+        width: fit-content;
+        justify-content: center;
+    }
+
+    hr {
+        width: 500px;
+    }
+
+    .vertical-spacer {
+        height: 100px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-component {
+        width: 100%;
+    }
+
+
+}

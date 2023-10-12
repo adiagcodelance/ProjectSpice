@@ -2,10 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .brand-container {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .brand-logo {
@@ -14,15 +19,17 @@
 }
 
 .nav-menu {
+    display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
-    display: flex;
+    padding: 0;
     width: 60%;
     height: 100%;
 }
 
 .nav-item {
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 150px;
@@ -41,4 +48,21 @@
 .nav-item a:hover {
     color: grey;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1698px) {
+    .container-fluid {
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    .nav-menu {
+        text-align: center;
+    }
+
+    .nav-item {
+        margin-bottom: 10px;
+    }
 }
