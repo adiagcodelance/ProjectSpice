@@ -27,3 +27,11 @@
         width: 90%;
     }
 }
+
+@media screen and (max-width: 986px) {
+
+    #ad-home,
+    #ad-home-content {
+        width: 50%;
+    }
+}

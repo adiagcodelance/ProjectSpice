@@ -15,3 +15,9 @@
 .ad-brands {
     display: flex;
 }
+
+@media screen and (max-width: 1698px) {
+    .ad-brands {
+        flex-direction: column;
+    }
+}

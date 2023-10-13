@@ -81,7 +81,19 @@ span.bottom {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: fit-content;
+    width: 90%;
+    margin: auto;
+  }
+
+  .app-content {
+    width: 90%;
+  }
+}
+
+@media (max-width: 986px) {
+  .App {
+    width: 90%;
+
   }
 
   .app-content {

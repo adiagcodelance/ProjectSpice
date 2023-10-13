@@ -4,6 +4,8 @@ import "./Location.css";
 import LocationsComponent from "../Components/LocationsComponent";
 import Header1 from "../Components/Header1";
 
+import "./Location.css";
+
 const Locations = () => {
   return (
     <motion.div
