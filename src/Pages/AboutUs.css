@@ -4,5 +4,30 @@
 
 .text-box {
     width: fit-content;
+    padding: 100px;
     margin: auto;
+}
+
+
+@media (max-width: 1698px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 986px) {
+    .box {
+        width: 100%;
+    }
+
+    /*
+    .app-content {
+      width: 90%;
+    }
+    */
 }

@@ -22,7 +22,7 @@
 
 .mega-header {
     font-size: 80px;
-    width: 600px;
+    width: 90%;
     align-items: center;
     justify-content: center;
 }
@@ -31,3 +31,5 @@
     width: 80%;
     height: 800px;
 }
+
+@media screen and (max-width: 1698px) {}

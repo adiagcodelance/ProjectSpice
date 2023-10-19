@@ -1,3 +1,10 @@
+.footer-container {
+    width: 100%;
+    background-color: #eb9f343d;
+
+    box-shadow: 0px -1px 10px #888;
+}
+
 .social-image {
     width: 35px;
     height: 35px;
@@ -41,4 +48,10 @@
 .quick-links a:hover {
     color: grey;
     cursor: pointer;
+}
+
+.trademark-container {
+    padding: 20px;
+    width: fit-content;
+    text-align: start;
 }

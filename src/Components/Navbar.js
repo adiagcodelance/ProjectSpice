@@ -5,10 +5,10 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="container-fluid">
-      <div brand-container>
+      <div className="nav-brand-container">
         <img
-          className="brand-logo"
-          src={process.env.PUBLIC_URL + "/SpiceLogo.png"}
+          className="nav-brand-logo"
+          src={process.env.PUBLIC_URL + "/the spice store final (1).jpg"}
         ></img>
       </div>
       <ul className="nav-menu">

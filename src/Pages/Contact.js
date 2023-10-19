@@ -7,17 +7,7 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <motion.div
-      className="box"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{
-        duration: 0.8,
-        delay: 0.5,
-        ease: [0, 0.71, 0.2, 1.01],
-      }}
-    >
-      <div className="spacer"></div>
+    <div>
       <section className="ad-contact-hero-01">
         <div className="ad-hero-div-01">
           <Header1 header1=<u>Need Help Or Have Questions</u> />
@@ -31,7 +21,7 @@ const Contact = () => {
       <div className="spacer"></div>
       <hr />
       <div className="spacer"></div>
-    </motion.div>
+    </div>
   );
 };
 

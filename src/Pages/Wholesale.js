@@ -2,22 +2,10 @@ import React from "react";
 import "./Wholesale.css";
 import ReverseHeroComp from "../Components/ReverHeroComp";
 import BrandTable from "../Components/BrandTable";
-import { motion } from "framer-motion";
 
 const Wholesale = () => {
   return (
-    <motion.div
-      className="box"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{
-        duration: 0.8,
-        delay: 0.5,
-        ease: [0, 0.71, 0.2, 1.01],
-      }}
-    >
-      <div className="spacer"></div>
-      <div className="spacer"></div>
+    <div>
       <section className="ad-wholesale" id="wholesale-hero">
         <div className="wholesale-hero-div">
           <div className="hero-1">
@@ -73,7 +61,7 @@ const Wholesale = () => {
       <div className="spacer"></div>
       <hr />
       <div className="spacer"></div>
-    </motion.div>
+    </div>
   );
 };
 

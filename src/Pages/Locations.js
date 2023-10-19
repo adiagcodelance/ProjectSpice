@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import "./Location.css";
 import LocationsComponent from "../Components/LocationsComponent";
 import Header1 from "../Components/Header1";
 
@@ -8,17 +7,7 @@ import "./Location.css";
 
 const Locations = () => {
   return (
-    <motion.div
-      className="box"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{
-        duration: 0.8,
-        delay: 0.5,
-        ease: [0, 0.71, 0.2, 1.01],
-      }}
-    >
-      <div className="spacer" />
+    <div>
       <section className="location-hero">
         <div className="ad-hero-01">
           <Header1 header1=<u>Locations</u>></Header1>
@@ -40,7 +29,7 @@ const Locations = () => {
       <div className="spacer"></div>
       <hr />
       <div className="spacer"></div>
-    </motion.div>
+    </div>
   );
 };
 

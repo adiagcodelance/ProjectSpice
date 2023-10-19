@@ -1,37 +1,37 @@
 .spacer {
     width: 100%;
-    height: 100px;
+    height: 20px;
 }
 
-#ad-home,
-#ad-home-content {
+#home-container,
+.home-content {
     width: 100%;
 }
 
 @media screen and (max-width: 1698px) {
-    .box {
+    .home-box {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
 
     .spacer {
-        width: 90%;
+        width: 100%;
     }
 
-    #ad-home,
-    #ad-home-content {
-        width: 90%;
+    #home-container,
+    .home-content {
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 986px) {
 
-    #ad-home,
-    #ad-home-content {
-        width: 50%;
+    #home-container,
+    .home-content {
+        width: 100%;
     }
 }

@@ -2,10 +2,6 @@
   width: 100%;
   text-align: center;
   position: relative;
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
 }
 
 .App-logo {
@@ -30,17 +26,13 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-span.boundary {
+div.boundary {
   position: fixed;
 
   /* Adjust the color as needed */
 }
 
-span.top {
+div.top {
   top: 0;
   left: 0;
   /* Add left property to ensure it starts from the left edge */
@@ -51,52 +43,59 @@ span.top {
   /* Adjust the height as needed */
 }
 
-span.left {
+div.left {
   top: 0;
   left: 0;
-  width: 30px;
+  width: 40px;
   height: 100%;
 }
 
-span.right {
+div.right {
   top: 0;
   right: 0;
-  width: 30px;
+  width: 40px;
   height: 100%;
 }
 
-span.bottom {
+div.bottom {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 30px;
+  height: 40px;
 }
 
-.app-content {
+footer {
   width: 100%;
 }
+
+/* 
+.App-content {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+*/
 
 @media (max-width: 1698px) {
   .App {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
 
-  .app-content {
-    width: 90%;
-  }
 }
 
 @media (max-width: 986px) {
   .App {
-    width: 90%;
-
+    width: 100%;
   }
+
 
   .app-content {
-    width: 90%;
+    width: 100%;
   }
+
 }

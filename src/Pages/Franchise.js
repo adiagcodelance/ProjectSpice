@@ -10,17 +10,7 @@ import { motion } from "framer-motion";
 
 const Franchise = () => {
   return (
-    <motion.div
-      className="box"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{
-        duration: 0.8,
-        delay: 0.5,
-        ease: [0, 0.71, 0.2, 1.01],
-      }}
-    >
-      <div className="spacer"></div>
+    <div>
       <section className="franchise-hero">
         <MegaHeader
           megaHeader="Interested In Joining Our Team?"
@@ -67,7 +57,7 @@ const Franchise = () => {
       <div className="spacer"></div>
       <hr />
       <div className="spacer"></div>
-    </motion.div>
+    </div>
   );
 };
 

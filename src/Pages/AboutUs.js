@@ -8,17 +8,7 @@ import "./AboutUs.css";
 
 const AboutUs = () => {
   return (
-    <motion.div
-      className="box"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{
-        duration: 0.8,
-        delay: 0.5,
-        ease: [0, 0.71, 0.2, 1.01],
-      }}
-    >
-      <div className="spacer" />
+    <div>
       <section className="ad-aboutus" id="ad-02">
         <div className="about-us">
           <div className="header-content">
@@ -50,7 +40,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
-    </motion.div>
+    </div>
   );
 };
 

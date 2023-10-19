@@ -1,21 +1,18 @@
 .container-fluid {
-    display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
 
-.brand-container {
+.nav-brand-container {
     width: 100%;
-    display: flex;
+    display: flexbox;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
 }
 
-.brand-logo {
-    width: 250px;
-    height: 60px;
+.nav-brand-logo {
+    width: 60%;
 }
 
 .nav-menu {
@@ -23,16 +20,17 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-    padding: 0;
-    width: 60%;
+    width: 100%;
     height: 100%;
+    padding: 0;
 }
 
 .nav-item {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
+    width: fit-content;
+    padding: 10px;
     height: 100%;
 }
 
@@ -54,15 +52,12 @@
     .container-fluid {
         flex-direction: column;
         text-align: center;
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
 
     .nav-menu {
+        width: 100%;
         text-align: center;
-    }
-
-    .nav-item {
-        margin-bottom: 10px;
     }
 }

@@ -4,7 +4,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="Footer-container">
+    <div className="footer-container">
       <div className="spacer"></div>
       <div className="footer-content">
         <div id="footer-large-header">
@@ -53,14 +53,9 @@ const Footer = () => {
           ></img>
         </a>
       </div>
-      <div className="spacer"></div>
       <div className="footer-links"></div>
       <div className="trademark-container">
-        <label>
-          The above content is owned by The Spice Store Incorporated, any
-          unauthorized usage of logos, fonts, images, etc. on the pages/website
-          by person, persons, or groups will be liable to legal action.
-        </label>
+        <label>© 2023 - TheSpiceStore.com | All rights reserved</label>
       </div>
     </div>
   );
