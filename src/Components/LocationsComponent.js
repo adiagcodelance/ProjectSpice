@@ -17,7 +17,9 @@ const LocationsComponent = (props) => {
           <li>{props.locationProvince}</li>
           <li>{props.locationPostal}</li>
           <li>{props.locationNumber}</li>
-          <li>{props.locationGoogleMaps}</li>
+          <li>
+            <a href={props.locationGoogleMaps}>Directions</a>
+          </li>
         </ul>
       </div>
     </div>

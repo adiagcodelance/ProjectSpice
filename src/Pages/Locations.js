@@ -27,8 +27,6 @@ const Locations = () => {
         />
       </section>
       <div className="spacer"></div>
-      <hr />
-      <div className="spacer"></div>
     </div>
   );
 };

@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./Footer.css";
 
 const Footer = () => {
@@ -7,38 +6,38 @@ const Footer = () => {
     <div className="footer-container">
       <div className="spacer"></div>
       <div className="footer-content">
-        <div id="footer-large-header">
+        <div className="footer-element" id="footer-large-header">
           <label>Call Us At</label>
         </div>
-        <div id="footer-medium-header">
+        <div className="footer-element" id="footer-medium-header">
           <label>1 902 XXX XXXX</label>
         </div>
-        <div id="footer-medium-header">
+        <div className="footer-element" id="footer-medium-header-02">
           <label>Or Visit Us, Find A Location Near You Now!</label>
         </div>
       </div>
 
       <button>Locations</button>
-      <div className="spacer"></div>
+
       <div className="quick-links">
         <ul>
           <li>
-            <a>PRIVACY</a>
+            <a href="#">PRIVACY</a>
           </li>
           <li>
-            <a>ABOUT</a>
+            <a href="#">ABOUT</a>
           </li>
           <li>
-            <a>CONTACT</a>
+            <a href="#">CONTACT</a>
           </li>
           <li>
-            <a>SUPPORT</a>
+            <a href="#">SUPPORT</a>
           </li>
           <li>
-            <a>WHOLESALE</a>
+            <a href="#">WHOLESALE</a>
           </li>
           <li>
-            <a>PEI</a>
+            <a href="#">PEI</a>
           </li>
         </ul>
       </div>
@@ -49,8 +48,9 @@ const Footer = () => {
         >
           <img
             className="social-image"
-            src={process.env.PUBLIC_URL + "./output-onlinepngtools.png"}
-          ></img>
+            src={process.env.PUBLIC_URL + "/output-onlinepngtools.png"}
+            alt="Facebook Icon"
+          />
         </a>
       </div>
       <div className="footer-links"></div>

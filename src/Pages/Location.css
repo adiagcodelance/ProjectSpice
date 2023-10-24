@@ -10,7 +10,6 @@
     width: 100%;
 }
 
-
 @media (max-width: 1698px) {
     .box {
         display: flex;
@@ -24,5 +23,12 @@
 @media (max-width: 986px) {
     .box {
         width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .box {
+        /* Add your styles for 768px and lower here */
     }
 }

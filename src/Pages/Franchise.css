@@ -1,7 +1,3 @@
-.box {
-    width: 100%;
-}
-
 .franchise-hero {
     width: 100%;
     align-items: center;
@@ -18,4 +14,15 @@
     width: fit-content;
     text-align: center;
     margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .franchise-hero {
+        padding: 10px;
+    }
+
+    .ad-header-container-01,
+    .ad-body-div-01 {
+        width: 100%;
+    }
 }

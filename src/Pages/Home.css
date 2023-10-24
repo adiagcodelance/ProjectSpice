@@ -35,3 +35,20 @@
         width: 100%;
     }
 }
+
+/* New media query for screens with a maximum width of 768px and lower */
+@media screen and (max-width: 768px) {
+    .spacer {
+        height: 10px;
+        /* Adjust the height for smaller screens */
+    }
+
+    #home-container,
+    .home-content {
+        width: 100%;
+    }
+
+    .home-box {
+        /* Add styles for screens with a maximum width of 768px and lower */
+    }
+}

@@ -1,5 +1,14 @@
 .ad-hero-div-01 {
-    width: fit-content;
+    width: 100%;
+    /* Use full width for screens 768px and lower */
     text-align: center;
     margin: auto;
+}
+
+@media screen and (min-width: 769px) {
+
+    /* Reset the width for screens wider than 768px */
+    .ad-hero-div-01 {
+        width: fit-content;
+    }
 }

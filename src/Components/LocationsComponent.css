@@ -6,11 +6,12 @@
 }
 
 .location-image {
-    width: 500px;
+    width: 300px;
+    max-width: 100%;
 }
 
 .location-item {
-    width: 300px;
+    width: 100%;
 }
 
 .location-information {
@@ -20,7 +21,6 @@
 
 .location-information ul {
     list-style: none;
-    width: 300px;
 }
 
 #location-title {
@@ -35,8 +35,25 @@
     word-wrap: break-word;
 }
 
-@media screen and (max-width: 1698px) {
+@media screen and (max-width: 768px) {
     .location-comp {
-        width: 100%;
+        flex-direction: column;
+    }
+
+    .location-image {
+        max-width: 80%;
+    }
+
+    .location-information {
+        width: fit-content;
+        margin-top: 10px;
+    }
+
+    .location-information ul {
+        width: 300px;
+    }
+
+    #location-title {
+        font-size: 18px;
     }
 }

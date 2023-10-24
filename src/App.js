@@ -14,6 +14,18 @@ import ScrollUp from "./Components/ScrollUpButton";
 
 function App() {
   return (
+    /*
+    <div className="App">
+      <div className="boundary top"></div>
+      <div className="boundary left"></div>
+
+      <div className="App-content">
+        <header>
+          <Contact />
+        </header>
+      </div>
+    </div>*/
+
     <Router>
       <div className="App">
         <div className="boundary top"></div>
@@ -42,7 +54,7 @@ function App() {
               <Route path="/franchise" element={<Franchise />}></Route>
               <Route path="/Contact-us" element={<Contact />}></Route>
             </Routes>
-            <footer className="footer">
+            <footer>
               <Footer />
             </footer>
           </motion.div>

@@ -13,11 +13,17 @@
 }
 
 .ad-brands {
+    width: 100%;
     display: flex;
 }
 
-@media screen and (max-width: 1698px) {
+@media screen and (max-width: 768px) {
     .ad-brands {
         flex-direction: column;
+    }
+
+    .brands,
+    .brands-02 {
+        padding: 20px;
     }
 }

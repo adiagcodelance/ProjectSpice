@@ -12,15 +12,12 @@ const Franchise = () => {
   return (
     <div>
       <section className="franchise-hero">
-        <MegaHeader
-          megaHeader="Interested In Joining Our Team?"
-          image="/placeholder.jpg"
-        />
-        <div className="spacer"></div>
-        <hr />
-        <div className="spacer"></div>
         <div className="ad-header-container-01">
-          <TextComponent text="Learn more about us, who we are and what makes us better than the rest and why you should join us. Lets make more than store, together we can make a change to how people shop and find Desi food products in Canada and provide them with the best customer experience." />
+          <ReverseHeroComponents
+            largeHeader="Interested In Joining Our Team?"
+            mediumHeader="Learn more about us, who we are and what makes us better than the rest and why you should join us. Lets make more than store, together we can make a change to how people shop and find Desi food products in Canada and provide them with the best customer experience."
+            image="/placeholder.jpg"
+          />
         </div>
       </section>
       <div className="spacer"></div>

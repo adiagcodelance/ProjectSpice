@@ -1,8 +1,14 @@
+/* Base Styles */
+
 .footer-container {
     width: 100%;
+    height: auto;
     background-color: #eb9f343d;
-
     box-shadow: 0px -1px 10px #888;
+    padding: 20px 0;
+    /* Add padding for better spacing */
+    text-align: center;
+    /* Center align text */
 }
 
 .social-image {
@@ -36,13 +42,17 @@
     justify-content: center;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
+    /* Allow links to wrap to the next line on smaller screens */
 }
 
 .quick-links li {
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 100%;
+    flex: 0;
+    /* Distribute links evenly on larger screens */
+    width: 100%;
+    /* Full width on smaller screens */
+    padding: 10px;
+    /* Add padding for spacing */
 }
 
 .quick-links a:hover {
@@ -53,5 +63,32 @@
 .trademark-container {
     padding: 20px;
     width: fit-content;
-    text-align: start;
+    text-align: center;
+    /* Center align text on smaller screens */
+}
+
+/* Mobile Styles for screens below 768px */
+@media screen and (max-width: 768px) {
+    .footer-container {
+        padding: 10px 0;
+        /* Reduce padding for smaller screens */
+    }
+
+    #footer-large-header label {
+        font-size: 30px;
+    }
+
+    #footer-medium-header label {
+        font-size: 20px;
+    }
+
+    .quick-links li {
+        width: 50%;
+        /* Make links occupy half the width on smaller screens */
+        /* Adjust padding for smaller screens */
+    }
+
+    .trademark-container {
+        margin: auto;
+    }
 }

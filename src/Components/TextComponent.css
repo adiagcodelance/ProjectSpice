@@ -1,4 +1,12 @@
 .text-content-01 {
-    font-size: 25px;
     width: 100%;
+    text-align: start;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .text-content-01 {
+        font-size: 15px;
+        text-align: center;
+    }
 }

@@ -1,18 +1,17 @@
-.container-fluid {
-    align-items: center;
-    justify-content: center;
+.nav-container {
     width: 100%;
+    margin: auto;
 }
 
 .nav-brand-container {
-    width: 100%;
-    display: flexbox;
-    align-items: center;
-    justify-content: center;
+    width: fit-content;
+    margin: auto;
 }
 
 .nav-brand-logo {
-    width: 60%;
+    width: 1880px;
+    height: 350px;
+    object-fit: cover;
 }
 
 .nav-menu {
@@ -20,8 +19,9 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-    width: 100%;
+    width: fit-content;
     height: 100%;
+    margin: auto;
     padding: 0;
 }
 
@@ -48,16 +48,70 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 1698px) {
-    .container-fluid {
-        flex-direction: column;
+/* Mobile Styles for screens below 768px */
+@media screen and (max-width: 768px) {
+    .nav-container {
         text-align: center;
+    }
+
+    .nav-brand-container {
         width: 100%;
-        margin: auto;
+    }
+
+    .nav-brand-logo {
+        width: 70%;
+        /* Adjust as needed */
     }
 
     .nav-menu {
+        display: none;
+        /* Hide the menu items by default */
+    }
+
+    .nav-menu.open {
+        display: flex;
+        /* Show the menu items when the menu is open */
+        flex-direction: column;
+        /* Stack menu items in a column */
+    }
+
+    .nav-item {
+        padding: 10px;
         width: 100%;
-        text-align: center;
+        /* Make each item full-width */
+    }
+
+    .nav-item a {
+        font-size: 18px;
+        /* Adjust font size */
+    }
+
+    .menu-button {
+        width: fit-content;
+        margin: auto;
+        display: block;
+        /* Show the menu button by default */
+        cursor: pointer;
+        padding: 10px;
+
+        /* Button background color */
+        color: #fff;
+        /* Button text color */
+        border: none;
+        border-radius: 5px;
+    }
+
+    .menu-button.open {
+        background-color: #fff;
+
+        /* Adjust the background color when the menu is open */
+    }
+
+    .bar {
+        width: 30px;
+        height: 3px;
+        background-color: #333;
+        /* Color of the bars */
+        margin: 5px 0;
     }
 }

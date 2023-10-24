@@ -1,23 +1,33 @@
-table,
-td {
-    align-items: center;
-    justify-content: center;
-    width: fit-content;
-    padding: 10px;
+table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
 }
 
-
-.brand-table {
-    align-items: center;
-    justify-content: center;
+td {
+    text-align: center;
+    padding: 10px;
 }
 
 th label {
     font-weight: normal;
+    font-size: 20px;
+    /* Adjust the font size as needed */
     text-align: center;
-    font-size: 30px;
 }
 
 .brand-image-item {
-    width: 150px;
+    max-width: 100%;
+    height: auto;
+    /* Added to reset the width to auto for images */
+}
+
+@media screen and (max-width: 768px) {
+
+    table th label,
+    table td {
+        font-size: 16px;
+        /* Adjust the font size as needed */
+    }
 }

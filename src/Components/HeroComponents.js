@@ -3,7 +3,7 @@ import "./HeroComponents.css";
 const HeroComponents = (props) => {
   return (
     <div className="hero-component">
-      <div className="text-content">
+      <div className="hero-text-content">
         <div className="large-header">
           <label>{props.largeHeader}</label>
         </div>
