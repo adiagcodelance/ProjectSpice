@@ -9,8 +9,8 @@
 }
 
 .nav-brand-logo {
-    width: 1880px;
-    height: 350px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
