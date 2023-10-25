@@ -23,12 +23,10 @@ const Locations = () => {
           locationProvince="PEI"
           locationPostal="C1A 8C9"
           locationNumber="(902) 367-2246"
-          locationGoogleMaps="https://www.google.com/maps/dir//spice+store/@46.2494529,-63.179883,13z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x4b5e52bba4d43fc5:0xfcea4e6bb4821101!2m2!1d-63.1386836!2d46.2494009?entry=ttu"
         />
       </section>
       <div className="spacer"></div>
     </div>
   );
 };
-
 export default Locations;
